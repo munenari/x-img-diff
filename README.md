@@ -37,6 +37,13 @@ Each rectangle stands for:
       arguments to be treated as positional options
 ```
 
+- docker
+
+```sh
+$ docker image build -t {image_name} .
+$ docker run -it --rm -v `pwd`:/x {image_name} example/img/after.png example/img/before.png out.png
+```
+
 ## Install
 ### Requirements
 
